@@ -44,13 +44,38 @@
     top: 50px;
 }
 
-.imagenes {
+.Tela{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     line-height: 23;
 }
 
+.Tela:hover{
+    transform: scale(1.3);
+}
+
+.Aro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 23;
+}
+
+.Aro:hover{
+    transform: scale(1.3);
+}
+
+.Teatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 23;
+}
+
+.Teatro:hover{
+    transform: scale(1.3);
+}
 
 .pie{
     background-color: darkblue;
