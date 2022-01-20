@@ -52,7 +52,8 @@
 }
 
 .Tela:hover{
-    transform: scale(1.3);
+    transform: rotate(360deg) scale(1.3) translateY(100px);
+    transition: all 0.5s;
 }
 
 .Aro{
@@ -63,7 +64,8 @@
 }
 
 .Aro:hover{
-    transform: scale(1.3);
+    transform: rotate(360deg) scale(1.3) translateY(100px);
+    transition: all 0.5s;
 }
 
 .Teatro{
@@ -74,7 +76,29 @@
 }
 
 .Teatro:hover{
-    transform: scale(1.3);
+    transform: rotate(360deg) scale(1.3) translateY(70px);
+    transition: all 0.5s;
+}
+
+.telas {
+    position: relative;
+    bottom: 290px;
+    left: 580px;
+    font-size: xx-large;
+}
+
+.aro {
+    position: relative;
+    bottom: 290px;
+    left: 580px;
+    font-size: xx-large;
+}
+
+.teatro {
+    position: relative;
+    bottom: 290px;
+    left: 580px;
+    font-size: xx-large;
 }
 
 .pie{
